@@ -108,7 +108,7 @@ export const Subscriptions = ({ navigation }) => {
               const appleReceiptResponse = await validateReceiptIos(
                 {
                   "receipt-data": receipt,
-                  password: "106f1d72d627401f8eb1242a8bb01416",
+                  password: "<your app specific secret>",
                 },
                 isTestEnvironment,
               );
